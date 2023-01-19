@@ -1,4 +1,4 @@
-package guru.springframework.msscbreweryservice.web.controller;
+package guru.springframework.msscbreweryservice.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
