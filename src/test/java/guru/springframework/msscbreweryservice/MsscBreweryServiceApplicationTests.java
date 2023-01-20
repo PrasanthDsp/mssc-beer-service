@@ -1,13 +1,15 @@
 package guru.springframework.msscbreweryservice;
 
+
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsscBreweryServiceApplicationTests {
+public class MsscBreweryServiceApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
