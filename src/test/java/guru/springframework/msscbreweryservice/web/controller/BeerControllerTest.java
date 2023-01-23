@@ -43,7 +43,7 @@ class BeerControllerTest {
         String beerDtoJson = mapper.writeValueAsString(beerDto);
 
         mockMvc.perform((RequestBuilder) post("/api/v1/beer/")
-                .contentType(MediaType.APPLICATION_JSON))
+                .contentType(MediaType.APPLICATION_JSON).contentType(MediaType.valueOf(beerDtoJson)))
                 .andExpect((ResultMatcher) status(HttpStatus.NO_CONTENT));
     }
 
